@@ -5,3 +5,9 @@
 ```js
 (STRING)(.*[\s\S]+?)(STRING)
 ```
+
+## Matches every character apart from numbers
+
+```js
+/[^0-9.]/g
+```
